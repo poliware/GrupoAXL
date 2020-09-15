@@ -391,6 +391,18 @@
         }
     });
 
+    /* whatsapp button */
+    // create the back to top button
+    $('body').prepend('<a href="https://api.whatsapp.com/send?phone=5511994801639&text=Ol%C3%A1%2C%20gostaria%20de%20realizar%20um%20or%C3%A7amento." class="axl-whatsapp-button page-scroll" style="display: inline;">whatsapp button</a>');
+    var amountScrolled = 700;
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > amountScrolled) {
+            $('a.back-to-top').fadeIn('500');
+        } else {
+            $('a.back-to-top').fadeOut('500');
+        }
+    });
+
 
 	/* Removes Long Focus On Buttons */
 	$(".button, a, button").mouseup(function() {
