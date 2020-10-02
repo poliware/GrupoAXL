@@ -844,6 +844,8 @@ input[type='checkbox'] {
 .slider-1 {
 	padding-top: 5rem;
 	padding-bottom: 3.25rem;
+  background-color: #f3f7fd;
+  margin-top: 2rem;
 }
 
 .slider-1 .slider-container {
@@ -1505,14 +1507,14 @@ a:hover.back-to-top {
 a.axl-whatsapp-button {
 	position: fixed;
 	z-index: 999;
-	right: 1.75rem;
+	right: 0.75rem;
 	bottom: 1.75rem;
 	display: none;
-	width: 4.625rem;
-	height: 4.625rem;
+	width: 3.625rem;
+	height: 3.625rem;
 	/* border-radius: 1.875rem; */
 	background: url("../images/logo-whatsapp.png") no-repeat center 47%;
-	background-size: 4.125rem 4.125rem;
+	background-size: 3.125rem 3.125rem;
 	text-indent: -9999px;
   -webkit-animation-name: shake;
   animation-name: shake;
