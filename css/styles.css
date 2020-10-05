@@ -837,6 +837,13 @@ input[type='checkbox'] {
 	height: 2.25rem;
 }
 
+.axl-img-dashboard{
+  border-radius: 10px;
+  opacity:0.95;
+  width:75%;
+  margin-left: center;
+}
+
 
 /*************************/
 /*     05. Customers     */
@@ -857,7 +864,8 @@ input[type='checkbox'] {
 /*     06. Description     */
 /***************************/
 .cards-1 {
-	padding-top: 3.25rem;
+  padding-top: 7.875rem;
+	/*padding-top: 3.25rem; ANTIGO*/
 	padding-bottom: 3rem;
 	text-align: center;
 }
@@ -1691,6 +1699,8 @@ a:hover.axl-whatsapp-button {
 	.header-frame {
 		height: 5.5rem;
 	}
+
+
 	/* end of header */
 
 
@@ -1817,6 +1827,13 @@ a:hover.axl-whatsapp-button {
 		margin-left: 1rem;
 	}
 	/* end of navigation */
+
+  .axl-img-dashboard{
+    border-radius: 10px;
+    opacity:0.95;
+    width:75%;
+    margin-left: 20%;
+  }
 
 
 	/* General Styles */
