@@ -882,8 +882,23 @@ input[type='checkbox'] {
 	padding: 0;
 	border: none;
 }
+.cards-1axl .card {
+	max-width: 21rem;
+	margin-right: auto;
+	margin-bottom: 3.5rem;
+	margin-left: auto;
+	padding: 0;
+	border: none;
+  background-color: #f3f7fd;
+}
 
 .cards-1 .card-image {
+	max-width: 16rem;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: auto;
+}
+.cards-1axl .card-image {
 	max-width: 16rem;
 	margin-right: auto;
 	margin-bottom: 2rem;
@@ -893,8 +908,14 @@ input[type='checkbox'] {
 .cards-1 .card-title {
 	margin-bottom: 0.5rem;
 }
+.cards-1axl .card-title {
+	margin-bottom: 0.5rem;
+}
 
 .cards-1 .card-body {
+	padding: 0;
+}
+.cards-1axl .card-body {
 	padding: 0;
 }
 
@@ -1879,12 +1900,23 @@ a:hover.axl-whatsapp-button {
 		display: inline-block;
 		width: 17rem;
 		max-width: 100%;
+		/* margin-right: 1rem;
+		margin-left: 1rem; */
+		vertical-align: top;
+	}
+  .cards-1axl .card {
+		display: inline-block;
+		width: 17rem;
+		max-width: 100%;
 		margin-right: 1rem;
 		margin-left: 1rem;
 		vertical-align: top;
 	}
 
 	.cards-1 .card-image {
+		width: 9rem;
+	}
+  .cards-1axl .card-image {
 		width: 9rem;
 	}
 	/* end of description */
@@ -2079,12 +2111,22 @@ a:hover.axl-whatsapp-button {
 
 	/* Description */
 	.cards-1 .card {
+		/* width: 18.875rem; */
+		/* margin-right: 2rem; */
+		/* margin-left: 2rem; */
+	}
+  .cards-1axl .card {
+    text-align: center;
 		width: 18.875rem;
-		margin-right: 2rem;
+		/* margin-right: 2rem; */
 		margin-left: 2rem;
+    background-color: #f3f7fd;
 	}
 
 	.cards-1 .card-image {
+		width: 12.5rem;
+	}
+  .cards-1axl .card-image {
 		width: 12.5rem;
 	}
 	/* end of description */
