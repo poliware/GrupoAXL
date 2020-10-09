@@ -48,7 +48,7 @@ html {
 
 body, p {
 	color: #555;
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;;
+	font: 400 0.9rem/1.625rem "Open Sans", sans-serif;;
 }
 
 .p-large {
@@ -223,17 +223,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 0.875rem 1.5rem 0.875rem 1.5rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #AD3139;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #AD3139;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #5f4dee;
+	background-color: #AD3139;
 	color: #fff;
 	text-decoration: none;
 }
@@ -260,6 +260,10 @@ a.white {
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
+}
+
+.axl-cards{
+  background-color: transparent;
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
@@ -744,13 +748,13 @@ input[type='checkbox'] {
 	margin-top: 0.25rem;
 	margin-bottom: 1.375rem;
 	margin-left: 0.5rem;
-	border: 0.125rem solid #fff;
-	color: #fff;
+	border: 0.125rem solid #AD3139;
+	color: #AD3139;
 }
 
 .navbar-custom .nav-item .btn-outline-sm:hover {
-	background-color: #fff;
-	color: #AD3139;
+	background-color: #AD3139;
+	color: #fff;
 }
 
 .navbar-custom .navbar-toggler {
@@ -904,6 +908,17 @@ input[type='checkbox'] {
 	margin-bottom: 2rem;
 	margin-left: auto;
 }
+.cards-1 .cards-image1{
+  max-width: 100%;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
+.cards-1 .cards-image2{
+  max-width: 100%;
+  margin-left: 0px;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
 
 .cards-1 .card-title {
 	margin-bottom: 0.5rem;
@@ -924,8 +939,8 @@ input[type='checkbox'] {
 /*     07. Features     */
 /************************/
 .tabs {
-	padding-top: 8rem;
-	padding-bottom: 8.125rem;
+	/* padding-top: 8rem; */
+	/* padding-bottom: 8.125rem; */
 	background-color: #f3f7fd;
 }
 
@@ -1789,6 +1804,31 @@ a:hover.axl-whatsapp-button {
 /* Min-width width 992px */
 @media (min-width: 992px) {
 
+  /* Services */
+  .axl-services3{
+    border-right: solid 2px #57181C;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .axl-services5{
+    border-right: solid 2px #57181C;
+    padding-right: 1rem;
+  }
+  .axl-services4{
+    padding-left: 1rem;
+  }
+  .axl-cases{
+    border-left: solid 2px #57181C;
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+  .axl-cases2{
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+  .axl-services21{
+    padding-left: 1rem;
+  }
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
@@ -1875,7 +1915,7 @@ a:hover.axl-whatsapp-button {
 
 	.header .text-container {
 		margin-top: 4rem;
-		margin-bottom: 0;
+		margin-bottom: 277px;
 	}
 
 	.header .image-container {
@@ -1919,8 +1959,20 @@ a:hover.axl-whatsapp-button {
   .cards-1axl .card-image {
 		width: 9rem;
 	}
+  .cards-1 .card-image1{
+    max-width: 95.5%;
+  }
+  .cards-1 .card-image2{
+    max-width: 95.5%;
+    margin-left: 1rem;
+  }
+  .cards-image{
+    width: 100%;
+  }
 	/* end of description */
-
+  .axl-text-salvador{
+    margin-left: 1rem;
+  }
 
 	/* Features */
 	.tabs .nav-tabs {
@@ -2064,9 +2116,23 @@ a:hover.axl-whatsapp-button {
 }
 /* end of min-width width 992px */
 
-
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
+
+  /* services */
+  .axl-services{
+    border-right: solid 2px #57181C;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .axl-services5{
+    border-right: solid 2px #57181C;
+    padding-right: 1rem;
+  }
+
+  .axl-services2{
+    padding-left: 1rem;
+  }
 
 	/* General Styles */
 	.h2-heading {
@@ -2082,7 +2148,7 @@ a:hover.axl-whatsapp-button {
 	}
 
 	.header .text-container {
-		margin-top: 5.5rem;
+		margin-top: 2rem;
 		margin-right: 0.5rem;
 	}
 
@@ -2129,6 +2195,16 @@ a:hover.axl-whatsapp-button {
   .cards-1axl .card-image {
 		width: 12.5rem;
 	}
+  .cards-1 .card-image1{
+    width: 98%;
+  }
+  .cards-1 .card-image1{
+    width: 98%;
+  }
+
+  .axl-text-salvador{
+    margin-left: 0rem;
+  }
 	/* end of description */
 
 
