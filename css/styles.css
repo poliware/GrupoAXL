@@ -855,7 +855,7 @@ input[type='checkbox'] {
 .slider-1 {
 	padding-top: 5rem;
 	padding-bottom: 3.25rem;
-  background-color: #f3f7fd;
+  background-color: #26335521;
   margin-top: 2rem;
 }
 
@@ -941,7 +941,7 @@ input[type='checkbox'] {
 .tabs {
 	/* padding-top: 8rem; */
 	/* padding-bottom: 8.125rem; */
-	background-color: #f3f7fd;
+	background-color: #26335521;
 }
 
 .tabs .h2-heading,
@@ -1145,7 +1145,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 8rem;
 	padding-bottom: 6.75rem;
-	background-color: #f3f7fd;
+	background-color: #26335521;
 	text-align: center;
 }
 
@@ -1392,6 +1392,16 @@ input[type='checkbox'] {
 /**************************/
 /*     13. Newsletter     */
 /**************************/
+.axl-contato{
+
+}
+.axl-contato .text-container {
+	margin-bottom: 3.5rem;
+	padding: 3.5rem 1rem 2.5rem 1rem;
+	border-radius: 0.5rem;
+	background-color: #26335521;
+}
+
 .form {
 	padding-top: 4rem;
 	padding-bottom: 6rem;
@@ -1401,7 +1411,7 @@ input[type='checkbox'] {
 	margin-bottom: 3.5rem;
 	padding: 3.5rem 1rem 2.5rem 1rem;
 	border-radius: 0.5rem;
-	background-color: #f3f7fd;
+	background-color: #26335521;
 }
 
 .form h2 {
