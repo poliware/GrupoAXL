@@ -47,7 +47,7 @@ try {
   ";
 
   if($mail->send()){
-    header("Location: index1.html");
+    header("Location: index.html");
   }
   else{
     echo "E-mail não enviado";
