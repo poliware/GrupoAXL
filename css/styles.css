@@ -267,6 +267,32 @@ a.white {
   background-color: transparent;
 }
 
+.img-excelencia{
+  width: 32rem;
+  max-width: 107%;
+  border-radius:15px;
+  margin-bottom: 1rem
+}
+
+.menu-footer{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+}
+.menu-footer li{
+  display: inline;
+}
+
+.menu-footer a{
+  text-decoration: none;
+  color: white;
+}
+.menu-footer a:hover{
+  color:#AD3139;
+}
+
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 	.label-control {
@@ -881,6 +907,14 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card {
+	max-width: 21rem;
+	margin-right: auto;
+	margin-bottom: 3.5rem;
+	margin-left: auto;
+	padding: 0;
+	border: none;
+}
+.cards-1 .card-cases {
 	max-width: 21rem;
 	margin-right: auto;
 	margin-bottom: 3.5rem;
@@ -1723,6 +1757,10 @@ a:hover.axl-whatsapp-button {
 /* Min-width width 768px */
 @media (min-width: 768px) {
 
+  .img-excelencia{
+    margin-bottom: 1rem;
+    margin-left: 12.5%;
+    }
 	/* General Styles */
 	.p-heading {
 		width: 85%;
@@ -1825,9 +1863,21 @@ a:hover.axl-whatsapp-button {
 /* Min-width width 992px */
 @media (min-width: 992px) {
 
+  .img-excelencia{
+    width: 31rem;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 28.2%;
+    }
   /* Services */
   .axl-services3{
     border-right: solid 2px #57181C;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .axl-services3-cases{
+    /* border-right: solid 2px #57181C; */
     padding-right: 1rem;
     padding-left: 1rem;
   }
@@ -1849,6 +1899,7 @@ a:hover.axl-whatsapp-button {
   }
   .axl-services21{
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 	/* Navigation */
 	.navbar-custom {
@@ -1960,6 +2011,14 @@ a:hover.axl-whatsapp-button {
 	.cards-1 .card {
 		display: inline-block;
 		width: 17rem;
+		max-width: 100%;
+		/* margin-right: 1rem;
+		margin-left: 1rem; */
+		vertical-align: top;
+	}
+  .cards-1 .card-cases {
+		display: inline-block;
+		width: 22rem;
 		max-width: 100%;
 		/* margin-right: 1rem;
 		margin-left: 1rem; */
@@ -2148,6 +2207,13 @@ a:hover.axl-whatsapp-button {
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
 
+  .img-excelencia {
+    width: 32rem;
+    max-width: 107%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    }
   /* services */
   .axl-services{
     border-right: solid 2px #57181C;
