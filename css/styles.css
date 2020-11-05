@@ -269,7 +269,7 @@ a.white {
 
 .img-excelencia{
   width: 32rem;
-  max-width: 107%;
+  max-width: 100%;
   border-radius:15px;
   margin-bottom: 1rem
 }
@@ -291,6 +291,15 @@ a.white {
 }
 .menu-footer a:hover{
   color:#AD3139;
+}
+
+.axl-img-midias:hover{
+  width: 85%;
+  border-radius: 50px;
+  -webkit-box-shadow: 9px 7px 10px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 10px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 10px rgba(50, 50, 50, 0.77);
+
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
@@ -1621,9 +1630,9 @@ a.axl-whatsapp-button {
 
 
 a:hover.axl-whatsapp-button {
-  width: 5.225rem;
-	height: 5.225rem;
-  background-size: 4.725rem 4.725rem;
+  width: 4.225rem;
+	height: 4.225rem;
+  background-size: 3.725rem 3.725rem;
 }
 
 
@@ -1818,8 +1827,8 @@ a:hover.axl-whatsapp-button {
 	}
 
 	.form form {
-		margin-right: 4rem;
-		margin-left: 4rem;
+		margin-right: 0rem;
+		margin-left: 0rem;
 	}
 	/* end of newsletter */
 
@@ -2184,8 +2193,8 @@ a:hover.axl-whatsapp-button {
 	}
 
 	.form form {
-		margin-right: 9rem;
-		margin-left: 9rem;
+		margin-right: 0rem;
+		margin-left: 0rem;
 	}
 	/* end of newsletter */
 
@@ -2373,8 +2382,8 @@ a:hover.axl-whatsapp-button {
 	}
 
 	.form form {
-		margin-right: 15rem;
-		margin-left: 15rem;
+		margin-right: 0rem;
+		margin-left: 0rem;
 	}
 	/* end of newsletter */
 
