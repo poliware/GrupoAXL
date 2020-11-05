@@ -412,7 +412,7 @@
             <span class=" axl-cards" >
               <a href="https://www.instagram.com/grupo_axl/" target="_blank" style="text-decoration: none;">
                 <!-- <div class="card-image"> -->
-                  <img class="img-fluid " src="images/instagram.png" alt="alternative" style="width:100px; padding:none;">
+                  <img class="img-fluid axl-img-midias" src="images/instagram.png" alt="alternative" style="width:100px; padding:none;">
                 <!-- </div> -->
               </a>
             </span>
@@ -424,7 +424,7 @@
             <span class=" axl-cards">
               <a href="https://www.facebook.com/grupoAXL" target="_blank" style="text-decoration: none;">
                 <!-- <div class="card-image"> -->
-                  <img class="img-fluid" src="images/facebook.png" alt="alternative" style="width:100px; padding:none;">
+                  <img class="img-fluid axl-img-midias" src="images/facebook.png" alt="alternative" style="width:100px; padding:none;">
                 <!-- </div> -->
               </a>
             </span>
@@ -437,7 +437,7 @@
             <span class=" axl-cards">
               <a href="https://www.linkedin.com/company/grupo-axl/" target="_blank" style="text-decoration: none;">
                 <!-- <div class="card-image"> -->
-                  <img class="img-fluid" src="images/linkedin.png" alt="alternative" style="width:100px; padding:none;">
+                  <img class="img-fluid axl-img-midias" src="images/linkedin.png" alt="alternative" style="width:100px; padding:none;">
                 <!-- </div> -->
 
               </a>
@@ -450,7 +450,7 @@
             <span class=" axl-cards">
               <a href="https://www.youtube.com/channel/UCxIHA56FCzwE86T6u6kLDnA" target="_blank" style="text-decoration: none;">
                 <!-- <div class="card-image"> -->
-                  <img class="img-fluid" src="images/youtube.png" alt="alternative" style="width:100px; padding:none;">
+                  <img class="img-fluid axl-img-midias" src="images/youtube.png" alt="alternative" style="width:100px; padding:none;">
                 <!-- </div> -->
               </a>
             </span>
@@ -572,83 +572,107 @@
             <h2>Entre em contato conosco via e-mail</h2>
 
             <form class="form-horizontal" action="email.php" method="post">
-              <fieldset>
+              <!-- <fieldset> -->
 
                 <!-- Form Name -->
-                <legend>Formulário de Contato</legend>
+                <legend>Formulário de Contato</legend><br>
 
                 <!-- Text input-->
-                <div class="form-group">
+
+                <div class="row">
+                  <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Nome" id="textinput" name="nome" required="">
+                  </div>
+
+                  <div class="col-6">
+                    <input id="textinput" name="telefone" type="text" placeholder="Telefone" class="form-control" required="">
+                  </div>
+                </div> <br>
+
+
+                <!-- <div class="form-group">
                   <label class=" control-label" for="textinput">Nome</label>
                   <div class="">
-                    <input id="textinput" name="nome" type="text" placeholder="Fulano..." class="form-control input-md" required="">
+                    <input id="textinput"  name="nome" type="text" placeholder="Fulano..." class="form-control input-md" required="">
 
                   </div>
-                </div>
+                </div> -->
 
                 <!-- Text input-->
-                <div class="form-group">
-                  <label class=" control-label" for="email">E-mail</label>
-                  <div class="">
-                    <input id="email" name="email" type="email" placeholder="email@email.com" class="form-control input-md" required="">
+                <div class="row">
+                  <div class="col">
+                    <input id="email" name="email" type="email" placeholder="E-mail" class="form-control" required="">
                   </div>
-                </div>
+                </div> <br>
 
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label class=" control-label" for="textinput">Telefone</label>
                   <div class="">
                     <input id="textinput" name="telefone" type="text" placeholder="11912345678" class="form-control input-md" required="">
 
                   </div>
-                </div>
+                </div> -->
 
                 <!-- Text input-->
-                <div class="form-group">
-                  <label class=" control-label" for="textinput">Assunto</label>
-                  <div class="">
-                    <input id="textinput" name="assunto" type="text" placeholder="...." class="form-control input-md" required="">
+                <div class="row">
+                  <div class="col">
+                    <input id="textinput" name="assunto" type="text" placeholder="Assunto" class="form-control input-md" required="">
 
                   </div>
                 </div>
-
+                <br>
                 <!-- Multiple Radios (inline) -->
-                <div class="form-group">
+                <div class="row">
+                  <div class="col">
+
+
                   <label class=" control-label" for="radios">Área</label>
                   <div class="">
                     <label class="radio-inline" for="radios-0">
-                      <input type="radio" name="area" id="radios-0" value="Comercial" checked="checked">
+
+                    <input type="radio" name="area" id="radios-0" value="Comercial" checked="">
                       Comercial
-                    </label>
-                    <br>
+                    </label><br>
+
                     <label class="radio-inline" for="radios-1">
                       <input type="radio" name="area" id="radios-1" value="Financeiro">
                       Financeiro
-                    </label>
-                    <br>
+                    </label> <br>
+
                     <label class="radio-inline" for="radios-2">
                       <input type="radio" name="area" id="radios-2" value="RH">
                       RH
                     </label>
                   </div>
+                  </div>
                 </div>
-
+                <br>
                 <!-- Textarea -->
-                <div class="form-group">
-                  <label class=" control-label" for="textarea">Mensagem:</label>
-                  <div class="">
-                    <textarea class="form-control" id="textarea" name="mensagem" placeholder="Olá, gostaria de mais informações..." cols=10 rows=5 required=""></textarea>
+                <div class="row">
+                  <div class="col">
+                    <textarea class="form-control" id="textarea" name="mensagem" placeholder="Messagem" cols=10 rows=5 required=""></textarea>
                   </div>
                 </div>
 
+                <br>
+                  <div class="form-group row">
+                    <!-- <label for="inputResultado" class="col-xl-1">2 + 3 =  </label> -->
+                    <div class="col-xl-5">
+                      <input type="number" class="form-control" id="textinput" name="captchaaxl" placeholder="Eu não sou um robô, responda: 2 + 3 =" >
+                    </div>
+                  </div>
+
                 <!-- Button -->
-                <div class="form-group">
+                <div class="row">
+                  <div class="col">
                   <label class=" control-label" for="singlebutton"></label>
                   <div class="">
                     <button id="singlebutton" name="singlebutton" class="form-control-submit-button">Enviar</button>
                   </div>
+                  </div>
                 </div>
 
-              </fieldset>
+              <!-- </fieldset> -->
             </form>
 
             <!-- Newsletter Form -->
