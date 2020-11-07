@@ -1766,7 +1766,14 @@ a:hover.axl-whatsapp-button {
 	text-align: left;
 }
 
+@media only screen and (max-width: 768px) {
+  .axl-ul-menu{
+    align-items: center;
+    text-align: center;
 
+  }
+
+}
 /*****************************/
 /*     19. Media Queries     */
 /*****************************/
