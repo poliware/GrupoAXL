@@ -9,8 +9,9 @@ $captchaaxl = $_POST['captchaaxl'];
 
 
 
+
   if ($area == "Comercial") {
-    $email_saida = "alex.skarlak@gmail.com";
+    $email_saida = "matheuspoli.10@gmail.com";
   }
   elseif ($area == "Financeiro") {
     $email_saida = "matheuspoli.10@gmail.com";
@@ -27,6 +28,12 @@ $captchaaxl = $_POST['captchaaxl'];
   use PHPMailer\PHPMailer\SMTP;
   use PHPMailer\PHPMailer\Exception;
 
+  if ($captchaaxl != "5") {
+    // code...
+    header("Location: indexerror.html#contact");
+  }else {
+    // code...
+
 
   $mail = new PHPMailer(true);
   try {
@@ -34,8 +41,8 @@ $captchaaxl = $_POST['captchaaxl'];
     $mail->IsSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'upload.matheus.10@gmail.com';
-    $mail->Password = 'IECC2020';
+    $mail->Username = 'formulariogrupoaxl@gmail.com';
+    $mail->Password = 'E&*$bpipW$rr#yTT!T#*';
     $mail->Port = 587;
 
     $mail->setFrom('upload.matheus.10@gmail.com');
@@ -50,7 +57,7 @@ $captchaaxl = $_POST['captchaaxl'];
     ";
 
     if($mail->send()){
-      header("Location: index.html");
+      header("Location: indexsucesso.html");
     }
     else{
       echo "E-mail não enviado";
@@ -59,5 +66,6 @@ $captchaaxl = $_POST['captchaaxl'];
   } catch (Exception $e) {
     echo "Erro ao enviar mensagem: {$mail->ErrorInfo}";
   }
+}
 
 ?>
